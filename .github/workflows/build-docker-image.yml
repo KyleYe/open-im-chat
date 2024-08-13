@@ -43,7 +43,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4.6.0
         with:
-          images: openim/openim-chat
+          images: kyleyhs/openim-chat
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=tag
