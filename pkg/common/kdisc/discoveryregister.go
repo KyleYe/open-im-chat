@@ -15,12 +15,13 @@
 package kdisc
 
 import (
-	"github.com/KyleYe/open-im-chat/pkg/common/config"
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/discovery/etcd"
-	"github.com/openimsdk/tools/discovery/zookeeper"
-	"github.com/openimsdk/tools/errs"
 	"time"
+
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/discovery/etcd"
+	"github.com/KyleYe/open-im-tools/discovery/zookeeper"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 const (

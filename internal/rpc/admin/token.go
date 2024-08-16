@@ -21,7 +21,7 @@ import (
 
 	"github.com/KyleYe/open-im-chat/pkg/eerrs"
 	adminpb "github.com/KyleYe/open-im-chat/pkg/protocol/admin"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/log"
 )
 
 func (o *adminServer) CreateToken(ctx context.Context, req *adminpb.CreateTokenReq) (*adminpb.CreateTokenResp, error) {

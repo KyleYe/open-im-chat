@@ -19,8 +19,8 @@ import (
 
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/common"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 func NewChatClient(client chat.ChatClient) *ChatClient {

@@ -3,6 +3,7 @@ package admin
 import (
 	"context"
 	"fmt"
+
 	chatmw "github.com/KyleYe/open-im-chat/internal/api/mw"
 	"github.com/KyleYe/open-im-chat/internal/api/util"
 	"github.com/KyleYe/open-im-chat/pkg/common/config"
@@ -10,10 +11,10 @@ import (
 	"github.com/KyleYe/open-im-chat/pkg/common/kdisc"
 	adminclient "github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 	chatclient "github.com/KyleYe/open-im-chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/mw"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mw"
-	"github.com/openimsdk/tools/utils/datautil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

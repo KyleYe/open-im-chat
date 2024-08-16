@@ -20,14 +20,14 @@ import (
 	"time"
 
 	"github.com/KyleYe/open-im-chat/pkg/eerrs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/log"
 
-	"github.com/openimsdk/protocol/auth"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/friend"
-	"github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/protocol/user"
+	"github.com/KyleYe/open-im-protocol/auth"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/friend"
+	"github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-protocol/user"
 )
 
 type CallerInterface interface {

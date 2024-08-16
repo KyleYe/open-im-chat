@@ -16,11 +16,12 @@ package mctx
 
 import (
 	"context"
-	"github.com/openimsdk/tools/utils/datautil"
 	"strconv"
 
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/errs"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/common/tokenverify"

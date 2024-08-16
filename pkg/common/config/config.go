@@ -2,8 +2,9 @@ package config
 
 import (
 	_ "embed"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/redisutil"
+
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
 )
 
 var (

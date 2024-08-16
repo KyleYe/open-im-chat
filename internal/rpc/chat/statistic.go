@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 func (o *chatSvr) UserLoginCount(ctx context.Context, req *chat.UserLoginCountReq) (*chat.UserLoginCountResp, error) {

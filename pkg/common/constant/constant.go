@@ -14,7 +14,7 @@
 
 package constant
 
-import "github.com/openimsdk/protocol/constant"
+import "github.com/KyleYe/open-im-protocol/constant"
 
 const (
 	// verificationCode used for.

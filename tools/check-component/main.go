@@ -24,14 +24,14 @@ import (
 	"github.com/KyleYe/open-im-chat/pkg/common/cmd"
 	"github.com/KyleYe/open-im-chat/pkg/common/config"
 	"github.com/KyleYe/open-im-chat/pkg/common/imapi"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/redisutil"
-	"github.com/openimsdk/tools/discovery/etcd"
-	"github.com/openimsdk/tools/discovery/zookeeper"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/system/program"
-	"github.com/openimsdk/tools/utils/idutil"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/redisutil"
+	"github.com/KyleYe/open-im-tools/discovery/etcd"
+	"github.com/KyleYe/open-im-tools/discovery/zookeeper"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/system/program"
+	"github.com/KyleYe/open-im-tools/utils/idutil"
 )
 
 const maxRetry = 180

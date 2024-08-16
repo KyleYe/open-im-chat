@@ -2,9 +2,10 @@ package cmd
 
 import (
 	"context"
+
 	"github.com/KyleYe/open-im-chat/internal/api/chat"
 	"github.com/KyleYe/open-im-chat/pkg/common/config"
-	"github.com/openimsdk/tools/system/program"
+	"github.com/KyleYe/open-im-tools/system/program"
 	"github.com/spf13/cobra"
 )
 

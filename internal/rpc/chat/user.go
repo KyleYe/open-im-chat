@@ -20,16 +20,16 @@ import (
 
 	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
 	chatdb "github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mcontext"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mcontext"
 	"go.mongodb.org/mongo-driver/mongo"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/KyleYe/open-im-chat/pkg/eerrs"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 func (o *chatSvr) UpdateUserInfo(ctx context.Context, req *chat.UpdateUserInfoReq) (*chat.UpdateUserInfoResp, error) {

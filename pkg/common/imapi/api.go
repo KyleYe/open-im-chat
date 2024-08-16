@@ -15,10 +15,10 @@
 package imapi
 
 import (
-	"github.com/openimsdk/protocol/auth"
-	"github.com/openimsdk/protocol/friend"
-	"github.com/openimsdk/protocol/group"
-	"github.com/openimsdk/protocol/user"
+	"github.com/KyleYe/open-im-protocol/auth"
+	"github.com/KyleYe/open-im-protocol/friend"
+	"github.com/KyleYe/open-im-protocol/group"
+	"github.com/KyleYe/open-im-protocol/user"
 )
 
 // im caller.

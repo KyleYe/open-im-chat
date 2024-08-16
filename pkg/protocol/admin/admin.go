@@ -16,8 +16,8 @@ package admin
 
 import (
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 func (x *LoginReq) Check() error {

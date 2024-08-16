@@ -18,10 +18,10 @@ import (
 	"context"
 	"encoding/json"
 
+	"github.com/KyleYe/open-im-tools/errs"
 	aliconf "github.com/alibabacloud-go/darabonba-openapi/client"
 	dysmsapi "github.com/alibabacloud-go/dysmsapi-20170525/v2/client"
 	"github.com/alibabacloud-go/tea/tea"
-	"github.com/openimsdk/tools/errs"
 )
 
 func NewAli(endpoint, accessKeyId, accessKeySecret, signName, verificationCodeTemplateCode string) (SMS, error) {

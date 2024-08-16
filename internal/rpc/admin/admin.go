@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mcontext"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/mcontext"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/google/uuid"
-	"github.com/openimsdk/tools/errs"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"

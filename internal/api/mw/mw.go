@@ -19,10 +19,10 @@ import (
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/apiresp"
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/gin-gonic/gin"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
 )
 
 func New(client admin.AdminClient) *MW {

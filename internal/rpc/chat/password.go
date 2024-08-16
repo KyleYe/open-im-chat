@@ -17,7 +17,7 @@ package chat
 import (
 	"context"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"

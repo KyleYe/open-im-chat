@@ -26,13 +26,13 @@ import (
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 	chatpb "github.com/KyleYe/open-im-chat/pkg/protocol/chat"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-protocol/sdkws"
+	"github.com/KyleYe/open-im-tools/a2r"
+	"github.com/KyleYe/open-im-tools/apiresp"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/gin-gonic/gin"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/protocol/sdkws"
-	"github.com/openimsdk/tools/a2r"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
 )
 
 func New(chatClient chatpb.ChatClient, adminClient admin.AdminClient, imApiCaller imapi.CallerInterface, api *util.Api) *Api {

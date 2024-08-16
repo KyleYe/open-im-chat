@@ -22,8 +22,8 @@ import (
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/KyleYe/open-im-chat/pkg/eerrs"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 type CallbackBeforeAddFriendReq struct {

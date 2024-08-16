@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 
 	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"

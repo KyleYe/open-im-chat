@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-tools/log"
 	"google.golang.org/grpc"
 )
 

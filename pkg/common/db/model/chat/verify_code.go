@@ -16,15 +16,16 @@ package chat
 
 import (
 	"context"
-	"github.com/openimsdk/tools/db/mongoutil"
+	"time"
+
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"time"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 type mongoVerifyCode struct {

@@ -16,11 +16,12 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/KyleYe/open-im-chat/pkg/common/config"
 	"path/filepath"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
+
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"github.com/spf13/cobra"
 )
 

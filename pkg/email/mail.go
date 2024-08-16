@@ -17,7 +17,8 @@ package email
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/tools/errs"
+
+	"github.com/KyleYe/open-im-tools/errs"
 	"gopkg.in/gomail.v2"
 )
 

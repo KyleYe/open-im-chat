@@ -17,7 +17,7 @@ package admin
 import (
 	"context"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"

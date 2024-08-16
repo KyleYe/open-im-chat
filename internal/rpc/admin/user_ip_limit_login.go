@@ -18,12 +18,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 
 	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 func (o *adminServer) SearchUserIPLimitLogin(ctx context.Context, req *admin.SearchUserIPLimitLoginReq) (*admin.SearchUserIPLimitLoginResp, error) {

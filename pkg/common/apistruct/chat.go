@@ -14,7 +14,7 @@
 
 package apistruct
 
-import "github.com/openimsdk/protocol/sdkws"
+import "github.com/KyleYe/open-im-protocol/sdkws"
 
 type UserRegisterResp struct {
 	ImToken   string `json:"imToken"`

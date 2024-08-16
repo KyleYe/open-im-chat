@@ -17,7 +17,7 @@ package chat
 import (
 	"github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/common"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 func DbToPbAttribute(attribute *chat.Attribute) *common.UserPublicInfo {

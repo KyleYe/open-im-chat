@@ -18,9 +18,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/openimsdk/tools/db/mongoutil"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/db/tx"
+	"github.com/KyleYe/open-im-tools/db/mongoutil"
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/db/tx"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/model/admin"

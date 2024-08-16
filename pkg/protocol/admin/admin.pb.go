@@ -23,8 +23,8 @@ package admin
 import (
 	context "context"
 	common "github.com/KyleYe/open-im-chat/pkg/protocol/common"
-	sdkws "github.com/openimsdk/protocol/sdkws"
-	wrapperspb "github.com/openimsdk/protocol/wrapperspb"
+	sdkws "github.com/KyleYe/open-im-protocol/sdkws"
+	wrapperspb "github.com/KyleYe/open-im-protocol/wrapperspb"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

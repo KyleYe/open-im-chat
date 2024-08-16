@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/constant"
-	constantpb "github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
+	constantpb "github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
 	"gorm.io/gorm/utils"
 )
 

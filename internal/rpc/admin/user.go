@@ -16,18 +16,19 @@ package admin
 
 import (
 	"context"
-	"github.com/openimsdk/protocol/wrapperspb"
-	"github.com/openimsdk/tools/utils/datautil"
 	"strings"
 	"time"
+
+	"github.com/KyleYe/open-im-protocol/wrapperspb"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 
 	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
 	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
 	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 func (o *adminServer) CancellationUser(ctx context.Context, req *admin.CancellationUserReq) (*admin.CancellationUserResp, error) {

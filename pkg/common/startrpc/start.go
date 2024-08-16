@@ -17,9 +17,6 @@ package startrpc
 import (
 	"context"
 	"fmt"
-	"github.com/KyleYe/open-im-chat/pkg/common/config"
-	"github.com/KyleYe/open-im-chat/pkg/common/kdisc"
-	"github.com/openimsdk/tools/utils/datautil"
 	"net"
 	"os"
 	"os/signal"
@@ -28,12 +25,16 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/openimsdk/tools/discovery"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/mw"
-	"github.com/openimsdk/tools/system/program"
-	"github.com/openimsdk/tools/utils/network"
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
+	"github.com/KyleYe/open-im-chat/pkg/common/kdisc"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
+
+	"github.com/KyleYe/open-im-tools/discovery"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/mw"
+	"github.com/KyleYe/open-im-tools/system/program"
+	"github.com/KyleYe/open-im-tools/utils/network"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

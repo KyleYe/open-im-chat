@@ -17,7 +17,7 @@ package chat
 import (
 	"time"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 
 	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 )
