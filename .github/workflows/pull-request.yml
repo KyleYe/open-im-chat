@@ -105,10 +105,10 @@ jobs:
 
             Github Actions Status:
 
-            [![Github Pull Request](https://github.com/openimsdk/chat/actions/workflows/pull-request.yml/badge.svg)](https://github.com/openimsdk/open-im-server/actions/workflows/pull-request.yml)
+            [![Github Pull Request](https://github.com/KyleYe/open-im-chat/actions/workflows/pull-request.yml/badge.svg)](https://github.com/openimsdk/open-im-server/actions/workflows/pull-request.yml)
             
             This is an automated PR. 
-            <sub>[workflow](https://github.com/openimsdk/chat/blob/main/.github/workflows/pull-request.yml).</sub>
+            <sub>[workflow](https://github.com/KyleYe/open-im-chat/blob/main/.github/workflows/pull-request.yml).</sub>
           labels: |
             kind/documentation
             enhancement

@@ -24,7 +24,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/openimsdk/chat/pkg/common/db/table/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
 )
 
 func NewAccount(db *mongo.Database) (chat.AccountInterface, error) {

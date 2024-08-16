@@ -15,7 +15,7 @@
 package admin
 
 import (
-	"github.com/openimsdk/chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	"github.com/openimsdk/tools/errs"
 	"github.com/openimsdk/tools/utils/datautil"
 )

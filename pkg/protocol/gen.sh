@@ -19,7 +19,7 @@ PROTO_NAMES=(
 )
 
 for name in "${PROTO_NAMES[@]}"; do
-  protoc --go_out=plugins=grpc:./${name} --go_opt=module=github.com/openimsdk/chat/pkg/protocol/${name} ${name}/${name}.proto
+  protoc --go_out=plugins=grpc:./${name} --go_opt=module=github.com/KyleYe/open-im-chat/pkg/protocol/${name} ${name}/${name}.proto
 done
 
 if [ "$(uname -s)" == "Darwin" ]; then

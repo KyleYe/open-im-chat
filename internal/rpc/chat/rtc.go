@@ -3,8 +3,8 @@ package chat
 import (
 	"context"
 
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 )
 
 func (o *chatSvr) GetTokenForVideoMeeting(ctx context.Context, req *chat.GetTokenForVideoMeetingReq) (*chat.GetTokenForVideoMeetingResp, error) {

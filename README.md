@@ -34,7 +34,7 @@ You may use the OpenIM source code to create compiled versions not originally pr
 ### 📦 Clone
 
 ```bash
-git clone https://github.com/openimsdk/chat openim-chat
+git clone https://github.com/KyleYe/open-im-chat openim-chat
 cd openim-chat
 ```
 
@@ -98,4 +98,4 @@ mage stop
 
 ## 🚨 License
 
-:scroll: chat is licensed under the [GPL-3.0 license](https://github.com/openimsdk/chat#GPL-3.0-1-ov-file). See the [LICENSE](https://github.com/openimsdk/chat/tree/main/LICENSE) for the full license text.
+:scroll: chat is licensed under the [GPL-3.0 license](https://github.com/KyleYe/open-im-chat#GPL-3.0-1-ov-file). See the [LICENSE](https://github.com/KyleYe/open-im-chat/tree/main/LICENSE) for the full license text.

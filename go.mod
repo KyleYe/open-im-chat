@@ -1,4 +1,4 @@
-module github.com/openimsdk/chat
+module github.com/KyleYe/open-im-chat
 
 go 1.21.2
 

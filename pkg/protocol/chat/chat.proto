@@ -19,7 +19,7 @@ import "common/common.proto";
 import "sdkws/sdkws.proto";
 import "wrapperspb/wrapperspb.proto";
 
-option go_package = "github.com/openimsdk/chat/pkg/protocol/chat";
+option go_package = "github.com/KyleYe/open-im-chat/pkg/protocol/chat";
 
 message UserIdentity {
   string email = 1;

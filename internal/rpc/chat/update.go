@@ -19,7 +19,7 @@ import (
 
 	"github.com/openimsdk/tools/errs"
 
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 )
 
 func ToDBAttributeUpdate(req *chat.UpdateUserInfoReq) (map[string]any, error) {

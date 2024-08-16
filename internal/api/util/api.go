@@ -3,8 +3,8 @@ package util
 import (
 	"context"
 	"fmt"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
 	"github.com/openimsdk/tools/errs"
 	"net"
 )

@@ -34,7 +34,7 @@
 ### 📦 克隆
 
 ```bash
-git clone https://github.com/openimsdk/chat openim-chat
+git clone https://github.com/KyleYe/open-im-chat openim-chat
 cd openim-chat
 ```
 
@@ -98,4 +98,4 @@ mage stop
 
 ## 🚨 许可
 
-:scroll: chat 根据 [GPL-3.0 license](https://github.com/openimsdk/chat#GPL-3.0-1-ov-file) 许可证授权。查看 [LICENSE](https://github.com/openimsdk/chat/tree/main/LICENSE) 获取完整的许可证文本。
+:scroll: chat 根据 [GPL-3.0 license](https://github.com/KyleYe/open-im-chat#GPL-3.0-1-ov-file) 许可证授权。查看 [LICENSE](https://github.com/KyleYe/open-im-chat/tree/main/LICENSE) 获取完整的许可证文本。

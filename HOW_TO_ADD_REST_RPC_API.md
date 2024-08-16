@@ -19,7 +19,7 @@ package OpenIMChat.chat;
 import "pub/wrapperspb.proto";
 import "pub/sdkws.proto";
 import "common/common.proto";
-option go_package = "github.com/openimsdk/chat/pkg/protocol/chat";
+option go_package = "github.com/KyleYe/open-im-chat/pkg/protocol/chat";
 
 ...
 
@@ -117,7 +117,7 @@ package chat
 
 import (
     ...
-    "github.com/openimsdk/chat/pkg/common/rtc"
+    "github.com/KyleYe/open-im-chat/pkg/common/rtc"
     ...
 )
 

@@ -19,8 +19,8 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/openimsdk/chat/pkg/eerrs"
-	adminpb "github.com/openimsdk/chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
+	adminpb "github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 	"github.com/openimsdk/tools/log"
 )
 

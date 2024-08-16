@@ -21,7 +21,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/db/table/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
 )
 
 func NewUserLoginRecord(db *mongo.Database) (chat.UserLoginRecordInterface, error) {

@@ -17,9 +17,9 @@ package admin
 import (
 	"context"
 
-	"github.com/openimsdk/chat/pkg/common/db/dbutil"
-	"github.com/openimsdk/chat/pkg/eerrs"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 )
 
 func (o *adminServer) CheckRegisterForbidden(ctx context.Context, req *admin.CheckRegisterForbiddenReq) (*admin.CheckRegisterForbiddenResp, error) {

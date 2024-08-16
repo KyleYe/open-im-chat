@@ -18,9 +18,9 @@ import (
 	"context"
 	"time"
 
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 )
 
 func (o *adminServer) SearchIPForbidden(ctx context.Context, req *admin.SearchIPForbiddenReq) (*admin.SearchIPForbiddenResp, error) {

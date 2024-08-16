@@ -15,8 +15,8 @@
 package chat
 
 import (
-	"github.com/openimsdk/chat/pkg/common/db/table/chat"
-	"github.com/openimsdk/chat/pkg/protocol/common"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/common"
 	"github.com/openimsdk/tools/utils/datautil"
 )
 

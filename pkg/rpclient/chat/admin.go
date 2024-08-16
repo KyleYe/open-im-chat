@@ -17,9 +17,9 @@ package chat
 import (
 	"context"
 
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/eerrs"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 )
 
 func NewAdminClient(client admin.AdminClient) *AdminClient {

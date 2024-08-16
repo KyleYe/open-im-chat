@@ -18,15 +18,15 @@ import (
 	"context"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/db/cache"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/cache"
 	"github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/db/mongoutil"
 	"github.com/openimsdk/tools/db/pagination"
 	"github.com/openimsdk/tools/db/tx"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/openimsdk/chat/pkg/common/db/model/admin"
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/model/admin"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
 )
 
 type AdminDatabaseInterface interface {

@@ -17,8 +17,8 @@ package admin
 import (
 	"context"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
 	"github.com/openimsdk/tools/db/mongoutil"
 	"github.com/openimsdk/tools/db/pagination"
 	"github.com/openimsdk/tools/errs"

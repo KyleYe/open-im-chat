@@ -22,11 +22,11 @@ import (
 	"github.com/openimsdk/tools/db/pagination"
 	"github.com/openimsdk/tools/db/tx"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	admindb "github.com/openimsdk/chat/pkg/common/db/model/admin"
-	"github.com/openimsdk/chat/pkg/common/db/model/chat"
-	"github.com/openimsdk/chat/pkg/common/db/table/admin"
-	chatdb "github.com/openimsdk/chat/pkg/common/db/table/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/model/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/model/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	chatdb "github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
 )
 
 type ChatDatabaseInterface interface {

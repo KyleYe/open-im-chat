@@ -22,7 +22,7 @@ package chat
 
 import (
 	context "context"
-	common "github.com/openimsdk/chat/pkg/protocol/common"
+	common "github.com/KyleYe/open-im-chat/pkg/protocol/common"
 	sdkws "github.com/openimsdk/protocol/sdkws"
 	wrapperspb "github.com/openimsdk/protocol/wrapperspb"
 	grpc "google.golang.org/grpc"

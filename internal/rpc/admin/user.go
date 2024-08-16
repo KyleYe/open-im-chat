@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/db/dbutil"
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 	"github.com/openimsdk/tools/errs"
 	"github.com/openimsdk/tools/mcontext"
 )

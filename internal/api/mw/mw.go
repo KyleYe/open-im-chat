@@ -17,9 +17,9 @@ package mw
 import (
 	"strconv"
 
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/chat/pkg/common/constant"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
 	constantpb "github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/apiresp"
 	"github.com/openimsdk/tools/errs"

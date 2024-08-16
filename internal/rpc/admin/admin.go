@@ -24,12 +24,12 @@ import (
 	"github.com/openimsdk/tools/mcontext"
 	"github.com/openimsdk/tools/utils/datautil"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	"github.com/openimsdk/chat/pkg/common/db/dbutil"
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/eerrs"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
 )
 
 func (o *adminServer) GetAdminInfo(ctx context.Context, req *admin.GetAdminInfoReq) (*admin.GetAdminInfoResp, error) {

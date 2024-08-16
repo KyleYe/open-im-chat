@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/cmd"
-	"github.com/openimsdk/chat/pkg/common/config"
-	"github.com/openimsdk/chat/pkg/common/imapi"
+	"github.com/KyleYe/open-im-chat/pkg/common/cmd"
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
+	"github.com/KyleYe/open-im-chat/pkg/common/imapi"
 	constantpb "github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/db/mongoutil"
 	"github.com/openimsdk/tools/db/redisutil"

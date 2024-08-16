@@ -24,11 +24,11 @@ import (
 	"github.com/google/uuid"
 	"github.com/openimsdk/tools/errs"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
-	"github.com/openimsdk/chat/pkg/protocol/common"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/common"
 )
 
 func (o *adminServer) AddApplet(ctx context.Context, req *admin.AddAppletReq) (*admin.AddAppletResp, error) {

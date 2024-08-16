@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 	"github.com/openimsdk/tools/errs"
 )
 

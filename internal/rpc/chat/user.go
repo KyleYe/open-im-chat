@@ -18,17 +18,17 @@ import (
 	"context"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/db/dbutil"
-	chatdb "github.com/openimsdk/chat/pkg/common/db/table/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/db/dbutil"
+	chatdb "github.com/KyleYe/open-im-chat/pkg/common/db/table/chat"
 	constantpb "github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/log"
 	"github.com/openimsdk/tools/mcontext"
 	"go.mongodb.org/mongo-driver/mongo"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/eerrs"
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 	"github.com/openimsdk/tools/errs"
 )
 

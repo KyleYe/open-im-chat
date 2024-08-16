@@ -17,8 +17,8 @@ package startrpc
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/chat/pkg/common/config"
-	"github.com/openimsdk/chat/pkg/common/kdisc"
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
+	"github.com/KyleYe/open-im-chat/pkg/common/kdisc"
 	"github.com/openimsdk/tools/utils/datautil"
 	"net"
 	"os"

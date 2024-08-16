@@ -19,9 +19,9 @@ import (
 
 	"github.com/openimsdk/tools/errs"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/chat"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/chat"
 )
 
 func (o *chatSvr) ResetPassword(ctx context.Context, req *chat.ResetPasswordReq) (*chat.ResetPasswordResp, error) {

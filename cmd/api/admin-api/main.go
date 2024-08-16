@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/openimsdk/chat/pkg/common/cmd"
+	"github.com/KyleYe/open-im-chat/pkg/common/cmd"
 	"github.com/openimsdk/tools/system/program"
 )
 

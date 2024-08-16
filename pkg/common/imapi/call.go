@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/common/constant"
+	"github.com/KyleYe/open-im-chat/pkg/common/constant"
 	constantpb "github.com/openimsdk/protocol/constant"
 	"github.com/openimsdk/tools/errs"
 	"github.com/openimsdk/tools/log"

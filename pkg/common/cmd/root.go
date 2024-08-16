@@ -16,7 +16,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/openimsdk/chat/pkg/common/config"
+	"github.com/KyleYe/open-im-chat/pkg/common/config"
 	"path/filepath"
 
 	"github.com/openimsdk/tools/errs"

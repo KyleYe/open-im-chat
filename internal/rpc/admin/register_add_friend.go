@@ -21,10 +21,10 @@ import (
 
 	"github.com/openimsdk/tools/errs"
 
-	admindb "github.com/openimsdk/chat/pkg/common/db/table/admin"
-	"github.com/openimsdk/chat/pkg/common/mctx"
-	"github.com/openimsdk/chat/pkg/protocol/admin"
-	"github.com/openimsdk/chat/pkg/protocol/common"
+	admindb "github.com/KyleYe/open-im-chat/pkg/common/db/table/admin"
+	"github.com/KyleYe/open-im-chat/pkg/common/mctx"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/admin"
+	"github.com/KyleYe/open-im-chat/pkg/protocol/common"
 )
 
 func (o *adminServer) AddDefaultFriend(ctx context.Context, req *admin.AddDefaultFriendReq) (*admin.AddDefaultFriendResp, error) {

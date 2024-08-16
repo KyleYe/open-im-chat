@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openimsdk/chat/pkg/eerrs"
+	"github.com/KyleYe/open-im-chat/pkg/eerrs"
 	"github.com/openimsdk/tools/log"
 
 	"github.com/openimsdk/protocol/auth"
